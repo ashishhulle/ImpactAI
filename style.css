@@ -29,7 +29,7 @@ h1 {
     object-fit: cover;
     border-radius: 10px;
  }
-#label-container .indicator{
+#label-container .indecator{
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ h1 {
     margin: 10px;
 
 }
-#label-container .indicator div{
+#label-container .indecator div{
     margin: 10px;
     padding: 10px;
     background-color: #333;
@@ -50,13 +50,13 @@ h1 {
     white-space: nowrap;
 }
 
-#label-container .indicator div:nth-child(1){
+#label-container .indecator div:nth-child(1){
     background-color:darkgreen;
 }
-#label-container .indicator div:nth-child(2){
+#label-container .indecator div:nth-child(2){
     background-color:crimson;
 }
-#label-container .indicator div:nth-child(3){
+#label-container .indecator div:nth-child(3){
     background-color:darkgoldenrod;
 }
 
@@ -109,6 +109,7 @@ input[type="file"] {
 }
 
 
+
 /* Loading circle */
 .loadingStatus {
     margin: auto;
@@ -119,7 +120,7 @@ input[type="file"] {
     height: 50px; /* Adjust as needed */
 }
 
-.loadingContainer{
+.loadingConitainer{
     display: none;
 }
 .loading-circle {
@@ -153,31 +154,4 @@ input[type="file"] {
         stroke-dasharray: 90, 150;
         stroke-dashoffset: -124;
     }
-}
-
-/* Webcam container */
-#webcam-container {
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    border: 2px solid #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ddd;
-}
-
-/* Start webcam button */
-#start-webcam {
-    padding: 8px 16px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#start-webcam:hover {
-    background-color: #0056b3;
 }
