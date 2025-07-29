@@ -16,9 +16,11 @@ This tool leverages computer vision to classify modes of damage in impacted text
 ## 🧪 How to Use
 
 1. Visit: [https://ashishhulle.github.io/ImpactAI/](https://ashishhulle.github.io/ImpactAI/)
-2. Click on **"Choose File"**.
-3. Select an image of the damaged composite sample (post-impact).
-4. The AI model will analyze the image and display the **predicted mode of damage** (e.g., dent, delamination, crack).
+2. Download Sample Images from: [https://1drv.ms/f/c/c2d663491d0b2b3b/Ev_imZEu7lVHkwEaqCK79YQBz7ee-NJAvmDKrt2NBdoVdQ?e=drCXZr](https://1drv.ms/f/c/c2d663491d0b2b3b/Ev_imZEu7lVHkwEaqCK79YQBz7ee-NJAvmDKrt2NBdoVdQ?e=drCXZr)
+3. Click on **"Choose File"**.
+4. Select an image of the damaged composite sample (post-impact).
+5. The AI model will analyze the image and display the **predicted mode of damage** (e.g., dent, delamination, crack).
+ 
 
 ---
 
