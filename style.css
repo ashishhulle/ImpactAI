@@ -1,0 +1,183 @@
+*{
+    transition: all 0.7s ease;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+h1 {
+    color: #333;
+}
+#label-container {
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    background-color:cadetblue;
+    color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+}
+ #label-container img{
+    width: 80%;
+    margin: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+#label-container .indicator{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 10px;
+
+}
+#label-container .indicator div{
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    height: 10px;
+    border-radius: 5px;
+    color: #f0f0f0;
+    line-height: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#label-container .indicator div:nth-child(1){
+    background-color:darkgreen;
+}
+#label-container .indicator div:nth-child(2){
+    background-color:crimson;
+}
+#label-container .indicator div:nth-child(3){
+    background-color:darkgoldenrod;
+}
+
+.container{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container *{
+    margin: 10px;
+}
+.container p a, .container p b{
+    margin: 0;
+}
+.container p{
+    text-align: justify;
+    line-height: 1.3em;
+}
+/* Hide the default file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Style the custom button */
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Add hover effect */
+.custom-file-upload:hover {
+    background-color: #45a049;
+}
+/* Style for the file name display */
+#file-name {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+/* Loading circle */
+.loadingStatus {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Adjust as needed */
+}
+
+.loadingContainer{
+    display: none;
+}
+.loading-circle {
+    animation: rotate 2s linear infinite;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+.path {
+    stroke: #f0f0f0;
+    stroke-linecap: round;
+    animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+    }
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+    }
+}
+
+/* Webcam container */
+#webcam-container {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+}
+
+/* Start webcam button */
+#start-webcam {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#start-webcam:hover {
+    background-color: #0056b3;
+}
